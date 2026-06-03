@@ -1,8 +1,8 @@
-#' Title
+#' Function that define which anumals are pet
 #'
-#' @param animal
+#' @param animal character with name of an animal (only of length = 1)
 #'
-#' @returns
+#' @returns character
 #'
 #' @export
 #' @examples

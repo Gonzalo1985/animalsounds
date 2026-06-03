@@ -2,7 +2,7 @@
 % Please edit documentation in R/animal_sounds.R
 \name{animal_sounds}
 \alias{animal_sounds}
-\title{Function that takes animal and sound as input parameters and returns string with description}
+\title{Function that takes animal and sound as input parameters}
 \usage{
 animal_sounds(animal, sound)
 }
@@ -15,7 +15,7 @@ animal_sounds(animal, sound)
 character
 }
 \description{
-Function that takes animal and sound as input parameters and returns string with description
+The function uses \link{paste0} and returns string with description of what sounds make the animal
 }
 \examples{
 animal_sounds("dog", "woof woof")

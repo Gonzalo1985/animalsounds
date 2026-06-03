@@ -2,10 +2,16 @@
 % Please edit documentation in R/animal_pet.R
 \name{animal_pet}
 \alias{animal_pet}
-\title{Title}
+\title{Function that define which anumals are pet}
 \usage{
 animal_pet(animal)
 }
+\arguments{
+\item{animal}{character with name of an animal (only of length = 1)}
+}
+\value{
+character
+}
 \description{
-Title
+Function that define which anumals are pet
 }

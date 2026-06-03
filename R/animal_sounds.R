@@ -1,4 +1,7 @@
-#' Function that takes animal and sound as input parameters and returns string with description
+#' Function that takes animal and sound as input parameters
+#'
+#' The function uses [paste0] and returns string with description of what sounds make the animal
+#'
 #'
 #' @param animal character with name of an animal (only of length = 1)
 #' @param sound character with sound of an animal (only of length = 1)
