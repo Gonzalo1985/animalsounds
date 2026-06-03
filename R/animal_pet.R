@@ -1,3 +1,11 @@
+#' Title
+#'
+#' @param animal
+#'
+#' @returns
+#'
+#' @export
+#' @examples
 animal_pet <- function(animal) {
   stopifnot(is.character(animal) & length(animal) == 1)
 
