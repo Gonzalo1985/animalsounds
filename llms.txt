@@ -1,0 +1,42 @@
+# animalsounds
+
+The goal of animalsounds is to …
+
+## Installation
+
+You can install the development version of animalsounds from
+[GitHub](https://github.com/) with:
+
+``` r
+
+# install.packages("pak")
+pak::pak("Gonzalo1985/animalsounds")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+``` r
+
+library(animalsounds)
+animal_sounds("dog", "guau")
+#> [1] "The dog says guau!"
+```
+
+# Package index
+
+## All functions
+
+- [`animal_pet()`](https://gonzalo1985.github.io/animalsounds/reference/animal_pet.md)
+  : Function that define which anumals are pet
+- [`animal_sounds()`](https://gonzalo1985.github.io/animalsounds/reference/animal_sounds.md)
+  : Function that takes animal and sound as input parameters
+- [`farm_animals`](https://gonzalo1985.github.io/animalsounds/reference/farm_animals.md)
+  : Farm animal names, sounds and feed
+
+# Articles
+
+### All vignettes
+
+- [animalsounds](https://gonzalo1985.github.io/animalsounds/articles/animalsounds.md):
