@@ -19,6 +19,6 @@ library(animalsounds)
 ```
 
 An example of how to use the `animalsounds` package to play animal sounds in R:
-```{r setup}
+```{r}
 animal_sounds("dog", "woof")
 ```
